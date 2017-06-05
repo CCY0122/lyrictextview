@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LyricTextView">
+        <attr name="text" format="string" />
+        <attr name="text_size" format="dimension" />
+        <attr name="default_color" format="color|reference" />
+        <attr name="changed_color" format="color|reference" />
+        <attr name="progress" format="float" />
+        <attr name="direction">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
