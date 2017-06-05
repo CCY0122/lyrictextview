@@ -16,6 +16,6 @@
         app:text_size="26sp" /><br/>
 <br/>
 <br/>
-
+![image](https://github.com/CCY0122/lyrictextview/blob/master/lyric.gif)
         
     
