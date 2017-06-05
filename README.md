@@ -1,7 +1,8 @@
 # lyrictextview
-歌词渐变文本控件
-##使用
-代码很少，建议直接复制（lyricTextView、attrs）<br/>
+歌词渐变文本控件<br/>
+代码很少，可直接复制（lyricTextView、attrs）<br/>
+使用方法<br/>
+
    <com.example.lyrictextview.LyricTextView<br/>
         android:id="@+id/lyric"<br/>
         android:layout_width="match_parent"<br/>
