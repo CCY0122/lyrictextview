@@ -1,6 +1,7 @@
 # lyrictextview
 歌词渐变文本控件<br/>
 代码很少，可直接复制（lyricTextView、attrs）<br/>
+控件详解：[http://blog.csdn.net/ccy0122/article/details/72870580](http://blog.csdn.net/ccy0122/article/details/72870580)<br/>
 使用方法<br/>
 
    <com.example.lyrictextview.LyricTextView<br/>
@@ -16,6 +17,7 @@
         app:text_size="26sp" /><br/>
 <br/>
 <br/>
+![image](https://github.com/CCY0122/lyrictextview/blob/master/20170605210655907.jpg)
 ![image](https://github.com/CCY0122/lyrictextview/blob/master/lyric.gif)
         
     
