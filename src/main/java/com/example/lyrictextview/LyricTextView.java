@@ -171,6 +171,7 @@ public class LyricTextView extends View {
         textSize = size;
         initPaint();
         measureText();
+        requestLayout();//wrap_content情况下文字大小改变后需重新onMeausre
         invalidate();
     }
 
@@ -193,6 +194,7 @@ public class LyricTextView extends View {
 
     public void setText(String text) {
         this.text = text;
+        requestLayout();  //wrap_content情况下文字长度改变后需重新onMeausre
         invalidate();
     }
 
@@ -211,6 +213,19 @@ public class LyricTextView extends View {
 
     public void setChangeColor(int changeColor) {
         this.changeColor = changeColor;
+        invalidate();
+    }
+
+    public void setAll(float progress, String text, float textSize, int defaultColor, int changeColor, int direction) {
+        this.progress = progress;
+        this.text = text;
+        this.textSize = textSize;
+        this.defaultColor = defaultColor;
+        this.changeColor = changeColor;
+        this.direction = direction == LEFT ? LEFT : RIGHT;
+        initPaint();
+        measureText();
+        requestLayout();
         invalidate();
     }
 
