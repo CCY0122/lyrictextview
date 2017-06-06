@@ -18,7 +18,7 @@
 2、代码里设置:<br/>
    LyricTextView ltv = new LyricTextView(context);<br/>
    ltv.setText/setProgress/setDefaultColor...(都有对应的getter、setter）<br/>
-   也可以直接lty.setAll(progress, text, textSize, defaultColor, changeColor, direction);<br/>
+   也可以直接ltv.setAll(progress, text, textSize, defaultColor, changeColor, direction);<br/>
 <br/>
 <br/>
 ![image](https://github.com/CCY0122/lyrictextview/blob/master/20170605210655907.jpg)
