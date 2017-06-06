@@ -48,6 +48,7 @@ public class LyricTextView extends View {
         super(context, attrs, defStyleAttr);
         TypedArray t = context.obtainStyledAttributes(attrs, R.styleable.LyricTextView);
         text = t.getString(R.styleable.LyricTextView_text);
+        if(text == null){text = "";}
         textSize = t.getDimension(R.styleable.LyricTextView_text_size, sp2px(16));
         defaultColor = t.getColor(R.styleable.LyricTextView_default_color, DEFAULT_COLOR);
         changeColor = t.getColor(R.styleable.LyricTextView_changed_color, CHANGED_COLOR);
